@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <script src="./jquery.min.js"></script>
+    <script src="./java.js"></script>                                                                                            
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="../index.html">Home</a>
+        <a href="./About.html" id="about">About</a>
+        <a href="./work.html"id="work">Work</a>
+        <a href="./contact.html" id="contact">Contact</a>
+      </div>
+      <h1 id="talk">Let's talk.</h1>
+    <br>
+    <p id="email">Get in touch via the form below, or by emailing <a href="mailto:dhruvwalia0712@gmail.com" id="mail">dhruvwalia0712</a>.</p>
+    <br>
+    <br>
+    <div class="form">
+        <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdCgMY7QYAI6IomSLHDqRzdwMKaMNVj4HnBRrJ2i_TPeCfvAQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+            <label for="">Name:</label>
+            <br>
+            <input type="text" placeholder=" Enter your Name" required class="text1" size="50" name="entry.807067749" id="entry.807067749">
+            <br>
+            <label for="">Email:</label>
+            <br>
+            <input type="email" class="text1" maxlength="256"  placeholder=" Enter your mail"  required name="entry.1114276299" id="entry.1114276299">
+            <br>
+            <br>
+            <label for="Message" class="">Message:</label>
+            <textarea placeholder="    Enter your message" maxlength="5000" required="" class="textarea" cols="40" rows="10" name="entry.1195568060" id="entry.1195568060"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit" class="btn">
+        </form>
+    </div>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+    
+</body>
+</html>

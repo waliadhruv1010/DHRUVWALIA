@@ -1,0 +1,237 @@
+body{
+    margin:0px;
+    background-color: rgba(0, 0, 0, 0.941);
+    background-image:url();
+    background-repeat: no-repeat;
+}
+.Dhruv123{
+    height: 600px;
+    position: absolute;
+    left: 800px;
+}
+.name{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 80px;
+    top: 130px;
+}
+.intro{
+    color: white;
+    position: absolute;
+    left: 80px;
+    top: 190px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+.intro2{
+    color: white;
+    position: absolute;
+    left: 80px;
+    top: 260px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+.intro3{
+  color: white;
+  position: absolute;
+  left: 80px;
+  top: 380px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  word-spacing: 5;
+}
+.intro4{
+  color: white;
+  position: absolute;
+  left: 80px;
+  top: 450px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  word-spacing: 5;
+}
+.intro5{
+  color: white;
+  position: absolute;
+  left: 80px;
+  top: 510px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  word-spacing: 5;
+}
+#learn-more{
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  left: 80px;
+  top: 570px;
+  text-decoration: none;
+}
+#learn-more:hover{
+  font-size:50px;
+}
+.top-container{
+    margin: 0px;
+    
+
+}    
+.topnav {
+
+    overflow: hidden;
+    margin-left: 60px;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: orange;
+    text-align: center;
+    padding: 24px ;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  
+  .topnav a:hover {
+    color:white;
+  }
+  
+
+  #contact{
+    position: relative;
+    left: 1000px;
+  }
+  #work{
+    position: relative;
+    left: 100px;
+  }
+  #about{
+    position: relative;
+    left: 50px;
+  }
+  #talk{
+    color: white;
+    position: absolute;
+    left: 80px;
+    top:60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+  }
+  #email{
+    color: orange;
+    position: absolute;
+    left: 80px;
+    top:150px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #mail{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+  }
+.value{
+  color: white;
+  position: absolute;
+  left: 80px;
+  top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+}
+.me{
+  color: grey;
+  position: absolute;
+  left: 80px;
+  top: 150px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+  float: left;
+}
+.talk{
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  
+  text-decoration: none;
+}
+.talk:hover{
+  color: white;
+}
+.talk1{
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.talk1:hover{
+  color: white;
+}
+.page{
+  color: grey;
+  position: absolute;
+  left: 80px;
+  top: 150px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+#first{
+  color: white;
+  position: absolute;
+  left: 80px;
+  top: 250px;;
+}
+.form{
+  color: white;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 250px;
+  display: inline;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey;
+  opacity: 1; /* Firefox */
+}
+.textarea{
+  background-color:rgba(27,27,27,.91); 
+  border: 3px solid black;
+  border-radius: 25px;
+  color: grey;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 0px 10px;
+  padding: 13px;
+}
+.text1{
+  width: 100%;
+  height: 25%;
+  margin: 0px 0px 10px;
+  padding: 10px;
+  background-color:rgba(27,27,27,.91); 
+  border: 3px solid black;
+  border-radius: 25px;
+  color: grey;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: orange;
+  font-size: 20px;
+  background: rgba(27,27,27,.91);
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: white;
+  background-color: rgb(255, 132, 0);
+}
